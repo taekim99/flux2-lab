@@ -14,15 +14,18 @@ A specialized inference repository for **Flux 2**. This project provides a strea
    cd flux2-lab
    python -m venv venv
    source venv/bin/activate
+   ```
 
 2. **Install with CUDA 12.4 support**:
    ```bash
    pip install -e ".[cuda124]"
+   ```
 
 ## Usage
 **To run the Flux 2 inference script**:
-   ```bash
-   python src/tti_flux_2/flux_2_inference.py --prompt "A futuristic city under water" --height 1024 --width 1024
+```bash
+python src/tti_flux_2/flux_2_inference.py --prompt "A futuristic city under water" --height 1024 --width 1024
+```
 
 ## Credits and License
 This repository is a derivative work and relies on the following open-source projects:
