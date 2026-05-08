@@ -1,6 +1,6 @@
 # Flux 2 Lab
 
-A specialized inference repository for **Flux 2**, optimized for performance and derived from the `musubi-tuner` ecosystem. This project provides a streamlined, standalone implementation of Flux 2 architectures for high-quality image generation.
+A specialized inference repository for **Flux 2**. This project provides a streamlined, standalone implementation of Flux 2 architectures for high-quality image generation.
 
 ## Features
 * **Flux 2 Dev/Klein Support**: High-fidelity image generation.
@@ -10,7 +10,7 @@ A specialized inference repository for **Flux 2**, optimized for performance and
 ## Installation
 1. **Clone and Setup**:
    ```bash
-   git clone [https://github.com/taekim99/flux2-lab.git](https://github.com/taekim99/flux2-lab.git)
+   git clone https://github.com/taekim99/flux2-lab.git
    cd flux2-lab
    python -m venv venv
    source venv/bin/activate
@@ -21,18 +21,17 @@ A specialized inference repository for **Flux 2**, optimized for performance and
 
 ## Usage
 **To run the Flux 2 inference script**:
-    ```bash
-    python src/tti_flux_2/flux_2_inference.py --prompt "A futuristic city under water" --height 1024 --width 1024
+   ```bash
+   python src/tti_flux_2/flux_2_inference.py --prompt "A futuristic city under water" --height 1024 --width 1024
 
 ## Credits and License
 This repository is a derivative work and relies on the following open-source projects:
 ### 1. [kohya-ss/musubi-tuner](https://github.com/kohya-ss/musubi-tuner)
-The core logic, structure, and training/inference scripts are heavily based on **musubi-tuner** by **kohya-ss**.
+The core logic, structure, and training/inference scripts are based on **musubi-tuner** by **kohya-ss**.
 ### 2. [Z-Image Team](https://github.com/Tongyi-MAI/Z-Image)
 The Flux 2 architecture implementation includes code from the **Z-Image Project**.
 * **License:** Apache License 2.0
 * **Copyright:** Copyright (c) 2025 Z-Image Team
-* **Note:** Original files have been modified for integration into this project.
 
 ---
 
